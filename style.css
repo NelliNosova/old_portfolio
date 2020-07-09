@@ -20,7 +20,7 @@ body {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
-} 
+}
 
 .certificate {
   display: flex;
@@ -41,11 +41,16 @@ body {
 }
 
 .my-works {
-  display: flex;  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
+}
+
+.my-works p {
+  padding: 10px 50px;
 }
 
 .italic {
@@ -55,7 +60,7 @@ body {
 .portfolio-img {
   display: inline-block;
   margin: auto;
-  
+
 }
 
 .page-header {
@@ -212,7 +217,7 @@ body {
   background-position-x: center;
 }
 
-.intro {  
+.intro {
   padding-bottom: 120px;
   min-height: 828px;
 }
@@ -230,7 +235,7 @@ body {
   display: grid;
   position: relative;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "a a"
     "ui s";
 }
@@ -243,7 +248,7 @@ body {
 .about {
   grid-area: a;
   padding: 30px 250px 50px 50px;
-  
+
 }
 
 .user-image img {
@@ -253,7 +258,7 @@ body {
 }
 
 .container .skills {
-  grid-area: s;  
+  grid-area: s;
   margin-bottom: 56px;
 }
 
@@ -399,7 +404,7 @@ body {
   background-image: url("img/clouse.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: transparent;  
+  background-color: transparent;
   border-radius: 50%;
   border: none;
 }
@@ -428,6 +433,5 @@ body {
   right: 0;
   width: 600px;
   height: 845px;
-  margin: auto;  
+  margin: auto;
 }
-
