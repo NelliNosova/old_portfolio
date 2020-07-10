@@ -25,6 +25,7 @@ body {
 .certificate {
   display: flex;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   list-style: none;
 }
@@ -50,7 +51,15 @@ body {
 }
 
 .my-works p {
-  padding: 10px 50px;
+  margin: 0;
+  padding: 20px 140px;
+  text-align: left;
+}
+
+.my-works .portfolio-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 20px 30px;  
 }
 
 .italic {
@@ -59,8 +68,23 @@ body {
 
 .portfolio-img {
   display: inline-block;
-  margin: auto;
+  margin: auto; 
+}
 
+.my-works .left {
+ /*  padding: 0; */
+  margin: 0;
+  margin-top: auto;
+}
+
+.left a {
+  position: relative;
+  text-decoration: none;  
+  color: inherit;
+}
+
+.my-works .left-device {
+ margin-top: 75px;
 }
 
 .page-header {
@@ -81,6 +105,8 @@ body {
   color: inherit;
 }
 
+.left a:focus,
+.left a:hover,
 .page-header a:focus,
 .page-header a:hover,
 .page-footer a:focus,
@@ -88,6 +114,7 @@ body {
   color: #f9dd79;
 }
 
+.left a::after,
 .page-header a::after,
 .page-footer a::after {
   position: absolute;
@@ -100,6 +127,8 @@ body {
   transition: width 200ms;
 }
 
+
+.left a:hover::after,
 .page-header a:hover::after,
 .page-footer a:hover::after {
   width: 100%;
@@ -253,7 +282,7 @@ body {
 
 .user-image img {
   width: 640px;
-  height: 640px;
+  
   object-fit: cover;
 }
 
@@ -264,11 +293,13 @@ body {
 
 .intro h3,
 .portfolio h3 {
+  display: inline-block;
   margin: 0 0 16px;
   font-size: 32px;
   line-height: 40px;
   font-weight: 500;
 }
+
 
 .intro p {
   margin: 0;
@@ -282,12 +313,14 @@ body {
 }
 
 .skills h3 {
-  margin-bottom: 40px;
+  margin-bottom: 40px;  
 }
+
 
 .skills-list {
   margin: 0;
   padding: 0;
+  margin-bottom: 250px;
 }
 
 .skills-list dt {
@@ -306,6 +339,10 @@ body {
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+}
+
+.skill-js {
+  background-image: url("img/icon-js.svg");
 }
 
 .level {
