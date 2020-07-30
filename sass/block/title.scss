@@ -7,6 +7,11 @@
     font-size: 56px;
     line-height: 72px;
   }
+
+  @media (max-width: $min-tablet) {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
 
 .title--other {
@@ -20,5 +25,10 @@
   @media (max-width: $min-desktop) {
     font-size: 46px;
     line-height: 62px;
+  }
+
+  @media (max-width: $min-tablet) {
+    font-size: 26px;
+    line-height: 36px;
   }
 }

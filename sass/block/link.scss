@@ -2,6 +2,10 @@
   position: relative;
   text-decoration: none;
   color: inherit;
+
+  @media (max-width: $min-tablet) {
+    display: block;
+  }
 }
 
 .link::after {
@@ -66,4 +70,6 @@
 
 .link--language {
   margin-left: 20px;
+
+
 }

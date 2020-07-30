@@ -14,6 +14,12 @@
   height: 800px;
   background-image: url("../img/hero-image.svg");
   background-repeat: no-repeat;
+
+  @media (max-width: $min-tablet) {
+    background: none;
+    height: 0;
+    width: 0;
+  }
 }
 
 .hero::after {
@@ -27,6 +33,11 @@
   background-position: center;
   background-repeat: no-repeat;
   border-top: 2px solid $basik-violet;
+
+  @media (max-width: $min-tablet) {
+    border-top: none;
+    height: 30px;
+  }
 }
 
 .hero__title {
@@ -44,4 +55,9 @@
   font-size: 32px;
   line-height: 48px;
   color: $basic-yellow;
+
+  @media (max-width: $min-tablet) {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }

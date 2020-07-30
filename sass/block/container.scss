@@ -5,16 +5,24 @@
 
   @media (max-width: $min-desktop) {
     max-width: $min-tablet;
+    padding: 0 30px;
   }
 
   @media (max-width: $min-tablet) {
     max-width: $min-mobile;
+    padding: 0;
   }
 }
 
 .container--header {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: $min-tablet) {
+    flex-direction: column-reverse;
+    position: relative;
+    display: block;
+  }
 }
 
 .container--hero {

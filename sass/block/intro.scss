@@ -44,8 +44,16 @@
   @media (max-width: $min-desktop) {
     padding-right: 50px;
   }
+
+  @media (max-width: $min-tablet) {
+    padding: 30px 20px 0 20px;
+  }
 }
 
 .intro__skills {
   margin-left: 20px;
+
+  @media (max-width: $min-tablet) {
+    margin-left: 0;
+  }
 }

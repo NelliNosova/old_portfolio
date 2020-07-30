@@ -4,6 +4,10 @@
   @media (max-width: $min-desktop) {
     max-width: 50%;
   }
+
+  @media (max-width: $min-tablet) {
+    max-width: 100%;
+  }
 }
 
 .contacts__link {

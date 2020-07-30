@@ -2,11 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin-left: 0;
+
 }
 
 .other__item {
   flex-basis: 150px;
   margin-bottom: 10px;
+
+  @media (max-width: $min-tablet) {
+    flex-basis: 50%;
+  }
 }
 
 .other__step {

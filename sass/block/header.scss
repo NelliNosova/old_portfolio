@@ -1,3 +1,11 @@
 .header {
   position: relative;
 }
+
+.header__language {
+  @media (max-width: $min-tablet) {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+}
