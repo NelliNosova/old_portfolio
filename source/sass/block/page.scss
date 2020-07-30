@@ -34,6 +34,7 @@
 
 .page__footer {
   padding: 40px 0;
+  background-color: $dark-violet;
 }
 
 .page__certificate {
@@ -46,8 +47,4 @@
   width: 600px;
   height: 845px;
   margin: auto;
-}
-
-.page__footer {
-  background-color: $dark-violet;
 }

@@ -1,11 +1,11 @@
 (function () {
-  var certificatePopupOne = document.querySelector(".certificate-popup-one");
-  var close = document.querySelector(".close");
-  var openOne = document.querySelector(".certificate-one");
+  var certificatePopupOne = document.querySelector(".js-one");
+  var close = document.querySelector(".js-close");
+  var openOne = document.querySelector(".js-certificate-one");
 
   openOne.addEventListener("click", function (evt) {
     evt.preventDefault();
-    certificatePopupOne.classList.remove("none");    
+    certificatePopupOne.classList.remove("none");
   });
 
   close.addEventListener("click", function (evt) {
