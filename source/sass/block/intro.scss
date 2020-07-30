@@ -24,10 +24,12 @@
 .intro__user-image {
   grid-area: ui;
   margin: 0;
+  padding-top: 25px;
+
 }
 
 .intro__item {
-  width: 640px;
+  width: 540px;
   object-fit: cover;
 
   @media (max-width: $min-desktop) {
@@ -37,7 +39,7 @@
 
 .intro__about {
   grid-area: a;
-  padding: 30px 250px 50px 50px;
+  padding: 30px 250px 0 50px;
 
   @media (max-width: $min-desktop) {
     padding-right: 50px;

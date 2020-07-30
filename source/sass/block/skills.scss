@@ -1,11 +1,10 @@
 .skills {
   position: relative;
   grid-area: s;
-  margin-bottom: 56px;
 }
 
 .skills__title {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .skills__title--other {
@@ -17,7 +16,6 @@
 .skills__certificate {
   display: flex;
   margin: 0;
-  margin-bottom: 20px;
   padding: 0;
   list-style: none;
 }
@@ -29,6 +27,7 @@
 
 .skills__list {
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
 }
 
