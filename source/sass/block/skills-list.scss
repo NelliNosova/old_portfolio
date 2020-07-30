@@ -1,5 +1,11 @@
 .skills-list {
   position: relative;
+
+  @media (max-width: $min-tablet) {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .skills-list__dt {
@@ -10,21 +16,42 @@
   letter-spacing: 1px;
   background-repeat: no-repeat;
   background-position: left;
+
+  @media (max-width: $min-tablet) {
+    padding-left: 0;
+    width: 30%
+  }
 }
 
 .skills-list__dt--html {
   background-image: url("../img/icon-html.svg");
+
+  @media (max-width: $min-tablet) {
+    background-image: none;
+  }
 }
 
 .skills-list__dt--css {
   background-image: url("../img/icon-css.svg");
+
+  @media (max-width: $min-tablet) {
+    background-image: none;
+  }
 }
 
 .skills-list__dt--js {
   background-image: url("../img/icon-js.svg");
+
+  @media (max-width: $min-tablet) {
+    background-image: none;
+  }
 }
 
 .skills-list__level {
   margin: 0 0 20px;
   height: 24px;
+
+  @media (max-width: $min-tablet) {
+    display: none;
+  }
 }

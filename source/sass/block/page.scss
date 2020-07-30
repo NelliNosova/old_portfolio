@@ -20,21 +20,32 @@
   @media (max-width: $min-tablet) {
     min-width: $min-mobile;
     max-width: $min-tablet;
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
 .page__header {
   margin: 0;
   padding: 40px 0;
+
+  @media (max-width: $min-tablet) {
+    padding-bottom: 0;
+  }
 }
 
 .page__hero {
   position: relative;
   padding-top: 200px;
-  height: 798px;
+  min-height: 798px;
 
   @media (max-width: $min-desktop) {
     padding-top: 150px;
+  }
+
+  @media (max-width: $min-tablet) {
+    padding-top: 80px;
+    min-height: 250px;
   }
 }
 
@@ -45,6 +56,10 @@
   @media (max-width: $min-desktop) {
     margin-top: -150px;
     padding-bottom: 10px;
+  }
+
+  @media (max-width: $min-tablet) {
+    margin-top: 0;
   }
 }
 
