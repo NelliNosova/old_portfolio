@@ -8,7 +8,7 @@
   position: absolute;
   content: "";
   bottom: -5px;
-  left: 25px;
+  left: 0;
   width: 0;
   height: 2px;
   background-color: $basic-yellow;
@@ -31,38 +31,37 @@
 
 .link--email {
   padding-left: 28px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("../img/icon-email.svg");
+  background-repeat: no-repeat;
 }
 
 .link--email:hover,
 .link--email:focus {
-  background-image: url("img/icon-email-alt.svg");
+  background-image: url("../img/icon-email-alt.svg");
 }
 
 .link--github {
   padding-left: 28px;
-  background-image: url("img/github.svg");
+  background-image: url("../img/github.svg");
+  background-repeat: no-repeat;
 }
 
 .link--github:hover,
 .link--github:focus {
-  background-image: url("img/github-alt.svg");
+  background-image: url("../img/github-alt.svg");
 }
 
 .link--phone {
   padding-left: 21px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
 }
 
 .link--phone:hover,
 .link--phone:focus {
-  background-image: url("img/icon-phone-alt.svg");
+  background-image: url("../img/icon-phone-alt.svg");
 }
 
 .link--language {
   margin-left: 20px;
-}
-
-.link--language::after {
-  left: 0;
 }
