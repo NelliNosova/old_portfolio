@@ -1,0 +1,27 @@
+.button {
+  margin: 0;
+  padding: 8px 24px;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0b0c23;
+  background-color: $basic-yellow;
+  box-shadow: 0 4px 16px rgba($basic-yellow, 40%);
+  border-radius: 24px;
+  transition: background-color 100ms, box-shadow 100ms;
+}
+
+.button:focus,
+.button:hover {
+  background-color: $button-hover;
+  box-shadow: 0 4px 32px rgba($basic-yellow, 40%);
+}
+
+.button:active {
+  background-color: $button-active;
+  box-shadow: none;
+}

@@ -1,0 +1,14 @@
+.portfolio {
+  background-color: $dark-blue;
+  background-image: url("../img/pattern-lines.svg");
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+
+.portfolio__title {
+  display: inline-block;
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+}

@@ -1,0 +1,50 @@
+.my-works {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-work__title {
+  display: inline-block;
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.my-work__description {
+  margin: 0;
+  padding: 20px 140px;
+  text-align: left;
+}
+
+.my-work__description--italic {
+  font-style: italic;
+}
+
+.my-work__description--left {
+  margin: 0;
+  margin-top: auto;
+}
+
+.my-work__description--device {
+  margin-top: 75px;
+}
+
+.my-work__link {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 20px 30px;
+}
+
+.my-work__img  {
+  display: inline-block;
+  margin: auto;
+}
+
+
+
+

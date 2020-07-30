@@ -17,12 +17,14 @@
 
 .link:active {
   opacity: 0.5;
+  box-shadow: none;
 }
 
 .link:hover,
 .link:focus {
   color: $basic-yellow;
   outline: none;
+  box-shadow: none;
 }
 
 .link:hover::after {

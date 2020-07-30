@@ -1,0 +1,24 @@
+.close {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 20px;
+  right: 20px;
+  background-image: url("../img/clouse.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+}
+
+.close:hover,
+.close:focus {
+  background-color: $basic-yellow;
+  outline: none;
+}
+
+
+.close:active {
+  opacity: 0.5;
+}
