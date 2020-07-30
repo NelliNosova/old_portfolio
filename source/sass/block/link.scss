@@ -1,0 +1,68 @@
+.link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link::after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 25px;
+  width: 0;
+  height: 2px;
+  background-color: $basic-yellow;
+  transition: width 200ms;
+}
+
+.link:active {
+  opacity: 0.5;
+}
+
+.link:hover,
+.link:focus {
+  color: $basic-yellow;
+  outline: none;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.link--email {
+  padding-left: 28px;
+  background-image: url("img/icon-email.svg");
+}
+
+.link--email:hover,
+.link--email:focus {
+  background-image: url("img/icon-email-alt.svg");
+}
+
+.link--github {
+  padding-left: 28px;
+  background-image: url("img/github.svg");
+}
+
+.link--github:hover,
+.link--github:focus {
+  background-image: url("img/github-alt.svg");
+}
+
+.link--phone {
+  padding-left: 21px;
+  background-image: url("img/icon-phone.svg");
+}
+
+.link--phone:hover,
+.link--phone:focus {
+  background-image: url("img/icon-phone-alt.svg");
+}
+
+.link--language {
+  margin-left: 20px;
+}
+
+.link--language::after {
+  left: 0;
+}

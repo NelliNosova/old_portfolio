@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <title>Portfolio Junior Front-end-Developer</title>
   <link
     href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700Old+Standard+TT&display=swap&subset=cyrillic"
@@ -12,171 +12,188 @@
 </head>
 
 <body class="page">
-  <header class="page__header page-header">
-    <div class="container">
-      <div class="page-header__contacts contacts">
-        <a href="tel:+48796991348" class="contacts__phone header-phone">+48796991348</a>
-        <a href="mailto:NelliNosovaPL@gmail.com" class="contacts__email header-email">NelliNosovaPL@gmail.com</a>
-        <a href="https://github.com/NelliNosova" class="contacts__github header-github">GitHub</a>
+  <header class="page__header header">
+    <div class="container container--header">
+      <div class="header__contacts contacts">
+        <a class="contacts__link contacts__link--phone link link--phone" href="tel:+48796991348" >+48796991348</a>
+        <a class="contacts__link contacts__link--email link link--email" href="mailto:NelliNosovaPL@gmail.com" >NelliNosovaPL@gmail.com</a>
+        <a class="contacts__link contacts__link--github link link--github" href="https://github.com/NelliNosova" >GitHub</a>
       </div>
-      <div class="page-header__language languag">
-        <a class="languag__item" href="index-ru.html">RU</a>
-        <a class="languag__item">PL</a>
+      <div class="header__language languag">
+        <a class="languag__item link link--language" href="index-ru.html">RU</a>
+        <a class="languag__item link link--language">PL</a>
         <!-- <a class="languag__item" href="index-en.html">EN</a> -->
       </div>
     </div>
   </header>
-  <section class="page__hero hero hero-image">
-    <div class="container">
-      <h1 class="hero__title heading">Nelli Nosova</h1>
-    </div>
-    <div class="container">
-      <p class="hero__item">Junior Front-end-Developer</p>
-    </div>
-  </section>
-  <section class="page__intro intro">
-    <div class="container">
-      <h2 class="visually-hidden">Witam</h2>
-      <figure class="intro__user-image user-image">
-        <img class="user-image__item" src="img/foto-nelli-2.jpg" width="640" alt="Foto Nelli Nosova" />
-      </figure>
-      <div class="intro__about about">
-        <h3 class="about__title">Kilka zdań o sobie</h3>
-        <p class="about__item">
-          Urodziłam się w Rosji nieopodal Bajkału, jednak większość dotychczasowego życia spędziłam w okolicach Uralu. W
-          Rosji pracowałam w kilku miejscach, gdzie głównie zajmowałam się księgowością.
-        </p>
-        <p class="about__item">
-          Od grudnia 2017 roku mieszkam razem z rodziną w jednym z miast w Wielkopolsce. Tu przez pewien czas pracowałam
-          w biurze rachunkowym, jednak dojrzałam do decyzji o zmianie branży ponieważ czułam, że nie jest to praca moich
-          marzeń.
-        </p>
-        <p class="about__item">
-          Od zawsze byłam osobą ambitną, lubiącą naukę i samorozwój. Z satysfakcją odkrywałam kolejne, nowe rzeczy i
-          własne umiejętności. Z racji tego, że w wielu niepozornych rzeczach widzę inspiracje w swoim mieszkaniu
-          przynajmniej raz do roku zajmuję się przemeblowaniem by odświeżyć otaczające mnie wnętrze. Do stycznia 2020
-          uważałam to za wadę jednak wówczas poznałam front end.
-        </p>
-        <p class="about__item">
-          W tworzeniu stron internetowych uwielbiam przede wszystkim różnorodność zadań, wizji, elastyczność oraz ciągłą
-          realizację coraz to nowych projektów. Czas spędzony na tworzeniu stron internetowych mija mi szybko i
-          przyjemnie, a praca sprawia
-          mi wiele radości i spełnienia. Zrozumiałam, że jest to zajęcie, dzięki któremu mogę w końcu się rozwijać.
-        </p>
-        <h3 class="about__title">Kursy zawodowe</h3>
-        <p class="about__item">
-          HTML&CSS Professional Website Coding Poziom 1 - od 11 maja do
-          12 lipca 2020
-        </p>
-        <p class="about__item">
-          HTML&CSS Adaptive layout and automation Poziom 2 - od 13 lipca
-          do 13 września 2020
-        </p>
+  <main class="page__main">
+    <section class="page__hero hero">
+      <div class="container container--hero">
+        <h1 class="hero__title title">Nelli Nosova</h1>
       </div>
-      <div class="intro__skills skills">
-        <h3 class="skills__title">Moje certyfikaty</h3>
-        <ul class="skills__certificate certificate">
-          <li class="certificate__item certificate-item">
-            <a class="certificate__one certificate-one" href="img/certificate-1.pdf">
-              <img src="img/level-1.jpg" width="130" height="190"
-                alt="Certyfikat HTML&CSS Professional Website Coding Poziom 1">
+      <div class="container container--hero">
+        <p class="hero__item">Junior Front-end-Developer</p>
+      </div>
+    </section>
+    <section class="page__intro intro">
+      <div class="container ontainer--intro">
+        <h2 class="visually-hidden">Witam</h2>
+        <figure class="intro__user-image user-image">
+          <img class="user-image__item" src="img/foto-nelli-2.jpg" width="640" alt="Foto Nelli Nosova" />
+        </figure>
+        <div class="intro__about about">
+          <h3 class="about__title">Kilka zdań o sobie</h3>
+          <p class="about__item">
+            Urodziłam się w Rosji nieopodal Bajkału, jednak większość dotychczasowego życia spędziłam w okolicach Uralu. W
+            Rosji pracowałam w kilku miejscach, gdzie głównie zajmowałam się księgowością.
+          </p>
+          <p class="about__item">
+            Od grudnia 2017 roku mieszkam razem z rodziną w jednym z miast w Wielkopolsce. Tu przez pewien czas pracowałam
+            w biurze rachunkowym, jednak dojrzałam do decyzji o zmianie branży ponieważ czułam, że nie jest to praca moich
+            marzeń.
+          </p>
+          <p class="about__item">
+            Od zawsze byłam osobą ambitną, lubiącą naukę i samorozwój. Z satysfakcją odkrywałam kolejne, nowe rzeczy i
+            własne umiejętności. Z racji tego, że w wielu niepozornych rzeczach widzę inspiracje w swoim mieszkaniu
+            przynajmniej raz do roku zajmuję się przemeblowaniem by odświeżyć otaczające mnie wnętrze. Do stycznia 2020
+            uważałam to za wadę jednak wówczas poznałam front end.
+          </p>
+          <p class="about__item">
+            W tworzeniu stron internetowych uwielbiam przede wszystkim różnorodność zadań, wizji, elastyczność oraz ciągłą
+            realizację coraz to nowych projektów. Czas spędzony na tworzeniu stron internetowych mija mi szybko i
+            przyjemnie, a praca sprawia
+            mi wiele radości i spełnienia. Zrozumiałam, że jest to zajęcie, dzięki któremu mogę w końcu się rozwijać.
+          </p>
+          <h3 class="about__title">Kursy zawodowe</h3>
+          <p class="about__item">
+            HTML&CSS Professional Website Coding Poziom 1 - od 11 maja do
+            12 lipca 2020
+          </p>
+          <p class="about__item">
+            HTML&CSS Adaptive layout and automation Poziom 2 - od 13 lipca
+            do 13 września 2020
+          </p>
+        </div>
+        <div class="intro__skills skills">
+          <h3 class="skills__title">Moje certyfikaty</h3>
+          <ul class="skills__certificate certificate">
+            <li class="certificate__item certificate-item">
+              <a class="certificate__one certificate-one" href="img/certificate-1.pdf">
+                <img src="img/ptojects/level-1.jpg" width="130" height="190"
+                  alt="Certyfikat HTML&CSS Professional Website Coding Poziom 1">
+              </a>
+            </li>
+          </ul>
+          <h3 class="skills__title">Moje umiejętności</h3>
+          <dl class="skills__list skills-list">
+            <dt class="skills-list__dt skill-html">HTML</dt>
+            <dd class="skills-list__level level">
+              <div class="level__item" style="width: 80%;">80%</div>
+            </dd>
+            <dt class="skills-list__dt skill-css">CSS</dt>
+            <dd class="skills-list__level level">
+              <div class="level__item" style="width: 60%;">60%</div>
+            </dd>
+            <dt class="skills-list__dt skill-js">JS</dt>
+            <dd class="skills-list__level level">
+              <div class="level__item" style="width: 10%;">10%</div>
+            </dd>
+          </dl>
+          <p class="skills__other other">
+            SCSS; LESS; JavaScript; GIT; GitHub; NPM; Photoshop; Figma; Accessibility.
+          </p>
+          <h3 class="skills__title bottom">CV</h3>
+          <p class="skills__other other">
+            <a class="other__link link scill-link" href="source/CV_Nelli_Nosova.pdf">Nelli Nosova CV</a>
+          </p>
+          <h3 class="skills__title bottom">Wykształcenie</h3>
+          <p class="skills__other other">
+            <b class="other__step">Wyższe:</b>
+            kierunek - <i class="other__direction">ekonomika.</i>
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <section class="page__portfolio portfolio">
+      <div class="container">
+        <h2 class="portfolio__title subheading">Moje projekty</h2>
+        <ul class="portfolio__my-works my-works">
+          <li class="my-works__item my-work">
+            <h3 class="my-work__title">Sedona</h3>
+            <a class="my-work__link button portfolio-link" href="https://nellinosova.github.io/1336029-sedona-28">
+              Otworzyć projekt
             </a>
+            <p class="my-work__description">
+              Projekt zrobiony podczas kursu<br>
+              "HTML&CSS Professional Website Coding Poziom 1", na podstawie gotowego układu strony.
+            </p>
+            <p class="my-work__description italic">
+              Pomoc mentora - przegląd kodu.
+            </p>
+            <div class="my-work__img portfolio-img">
+              <img src="img/ptojects/Index-s.png" width="350" alt="Układ głównej strony" />
+            </div>
+            <p class="my-work__description left">
+              Składa się ze strony głównej -
+              <a class="link" href="https://nellinosova.github.io/1336029-sedona-28">
+                index.html
+              </a><br>
+              i jednej strony katalogu -
+              <a class="link"
+                href="https://nellinosova.github.io/1336029-sedona-28/catalog.html">catalog.html
+              </a>
+            </p>
+          </li>
+          <li class="my-works__item my-work">
+            <h3 class="my-work__title">Device</h3>
+            <a class="my-work__link button portfolio-link" href="https://nellinosova.github.io/1336029-device-28">
+              Otworzyć projekt
+            </a>
+            <p class="my-work__description">
+              Projekt zrobiony podczas kursu<br> "HTML&CSS Professional Website Coding Poziom 1", na podstawie gotowego
+              układu strony.
+            </p>
+            <p class="my-work__description italic">
+              Pomoc mentora - przegląd kodu.
+            </p>
+            <div class="my-work__img portfolio-img">
+              <img src="img/ptojects/Index-d.jpg" width="350" alt="Układ głównej strony" />
+            </div>
+            <p class="my-work__description left left-device">
+              Składa się ze strony głównej - <a href="https://nellinosova.github.io/1336029-device-28">index.html</a><br>
+              i jednej strony katalogu - <a
+                href="https://nellinosova.github.io/1336029-device-28/catalog.html">catalog.html</a>
+            </p>
           </li>
         </ul>
-        <h3 class="skills__title">Moje umiejętności</h3>
-        <dl class="skills__list skills-list">
-          <dt class="skills-list__dt skill-html">HTML</dt>
-          <dd class="skills-list__level level">
-            <div class="level__item" style="width: 80%;">80%</div>
-          </dd>
-          <dt class="skills-list__dt skill-css">CSS</dt>
-          <dd class="skills-list__level level">
-            <div class="level__item" style="width: 60%;">60%</div>
-          </dd>
-          <dt class="skills-list__dt skill-js">JS</dt>
-          <dd class="skills-list__level level">
-            <div class="level__item" style="width: 10%;">10%</div>
-          </dd>
-        </dl>
-        <p class="skills__other other">
-          SCSS; LESS; JavaScript; GIT; GitHub; NPM; Photoshop; Figma; Accessibility.
-        </p>
-        <h3 class="skills__title bottom">CV</h3>
-        <p class="skills__other other">
-          <a class="other__link scill-link" href="source/CV_Nelli_Nosova.pdf">Nelli Nosova CV</a>
-        </p>
-        <h3 class="skills__title bottom">Wykształcenie</h3>
-        <p class="skills__other other">
-          <b class="other__step">Wyższe:</b>
-          kierunek - <i class="other__direction">ekonomika.</i>
-        </p>
       </div>
+    </section>
+  </main>
 
-    </div>
-  </section>
-  <section class="page__portfolio portfolio">
-    <div class="container">
-      <h2 class="portfolio__title subheading">Moje projekty</h2>
-      <ul class="portfolio__my-works my-works">
-        <li class="my-works__item my-work">
-          <h3 class="my-work__title">Sedona</h3>
-          <a class="my-work__link button portfolio-link" href="https://nellinosova.github.io/1336029-sedona-28">
-            Otworzyć projekt
-          </a>
-          <p class="my-work__description">
-            Projekt zrobiony podczas kursu<br>
-            "HTML&CSS Professional Website Coding Poziom 1", na podstawie gotowego układu strony.
-          </p>
-          <p class="my-work__description italic">
-            Pomoc mentora - przegląd kodu.
-          </p>
-          <div class="my-work__img portfolio-img">
-            <img src="source/Index-s.png" width="350" alt="Układ głównej strony" />
-          </div>
-          <p class="my-work__description left">
-            Składa się ze strony głównej - <a href="https://nellinosova.github.io/1336029-sedona-28">index.html</a><br>
-            i jednej strony katalogu - <a
-              href="https://nellinosova.github.io/1336029-sedona-28/catalog.html">catalog.html</a>
-          </p>
-        </li>
-        <li class="my-works__item my-work">
-          <h3 class="my-work__title">Device</h3>
-          <a class="my-work__link button portfolio-link" href="https://nellinosova.github.io/1336029-device-28">
-            Otworzyć projekt
-          </a>
-          <p class="my-work__description">
-            Projekt zrobiony podczas kursu<br> "HTML&CSS Professional Website Coding Poziom 1", na podstawie gotowego
-            układu strony.
-          </p>
-          <p class="my-work__description italic">
-            Pomoc mentora - przegląd kodu.
-          </p>
-          <div class="my-work__img portfolio-img">
-            <img src="source/Index-d.jpg" width="350" alt="Układ głównej strony" />
-          </div>
-          <p class="my-work__description left left-device">
-            Składa się ze strony głównej - <a href="https://nellinosova.github.io/1336029-device-28">index.html</a><br>
-            i jednej strony katalogu - <a
-              href="https://nellinosova.github.io/1336029-device-28/catalog.html">catalog.html</a>
-          </p>
-        </li>
-      </ul>
-    </div>
-  </section>
   <footer class="page__footer page-footer">
     <div class="container">
-      <a class="page-footer__phone footer-phone" href="tel:+48796991348" >+48796991348</a>
-      <a class="page-footer__email footer-email" href="mailto:NelliNosovaPL@gmail.com" >NelliNosovaPL@gmail.com</a>
-      <a class="page-footer__github footer-github" href="https://github.com/NelliNosova" >GitHub</a>
-      <br />
-      <p class="page-footer__wharsapp">WhatsApp: +48796991348</p>
+      <div class="header__contacts contacts">
+        <a class="contacts__link contacts__link--phone link link--phone" href="tel:+48796991348" >
+          +48796991348
+        </a>
+        <a class="contacts__link contacts__link--email link link--email" href="mailto:NelliNosovaPL@gmail.com" >
+          NelliNosovaPL@gmail.com
+        </a>
+        <a class="contacts__link contacts__link--github link link--github" href="https://github.com/NelliNosova" >
+          GitHub
+        </a>
+        <p class="page-footer__wharsapp">
+          WhatsApp: +48796991348
+        </p>
+      </div>
     </div>
   </footer>
   <div class="page__certificate certificate certificate--popup-one none">
     <button class="certificate__close close" type="button" aria-label="Закрыть форму"></button>
-    <img class="certificate__img" src="img/level-1.png" width="600" alt="Certifikat" />
+    <img class="certificate__img" src="img/ptojects/level-1.png" width="600" alt="Certifikat" />
   </div>
-  <script src="script.js"></script>
+  <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
