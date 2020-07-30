@@ -5,6 +5,17 @@
   padding: 0;
   list-style: none;
   text-align: center;
+
+  @media (max-width: $min-desktop) {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+
+.my-work {
+  @media (max-width: $min-desktop) {
+    margin-bottom: 40px;
+  }
 }
 
 .my-work__title {
@@ -19,6 +30,9 @@
   margin: 0;
   padding: 20px 140px;
   text-align: left;
+  @media (max-width: $min-desktop) {
+    padding: 20px;
+  }
 }
 
 .my-work__description--italic {

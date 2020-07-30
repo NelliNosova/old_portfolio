@@ -1,5 +1,9 @@
 .contacts {
   position: relative;
+
+  @media (max-width: $min-desktop) {
+    max-width: 50%;
+  }
 }
 
 .contacts__link {

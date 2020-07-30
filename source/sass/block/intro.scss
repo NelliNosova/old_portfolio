@@ -12,6 +12,13 @@
   grid-template-areas:
     "a a"
     "ui s";
+
+    @media (max-width: $min-desktop) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+    "a"
+    "s";
+    }
 }
 
 .intro__user-image {
@@ -22,11 +29,19 @@
 .intro__item {
   width: 640px;
   object-fit: cover;
+
+  @media (max-width: $min-desktop) {
+    display: none;
+  }
 }
 
 .intro__about {
   grid-area: a;
   padding: 30px 250px 50px 50px;
+
+  @media (max-width: $min-desktop) {
+    padding-right: 50px;
+  }
 }
 
 .intro__skills {

@@ -1,7 +1,15 @@
 .container {
-  max-width: 1408px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 50px;
+
+  @media (max-width: $min-desktop) {
+    max-width: $min-tablet;
+  }
+
+  @media (max-width: $min-tablet) {
+    max-width: $min-mobile;
+  }
 }
 
 .container--header {

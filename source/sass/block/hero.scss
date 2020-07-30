@@ -9,8 +9,8 @@
   position: absolute;
   content: "";
   top: 24px;
-  left: calc(50vw - 32px);
-  width: 800px;
+  right: 0;
+  width: 55%;
   height: 800px;
   background-image: url("../img/hero-image.svg");
   background-repeat: no-repeat;
@@ -33,7 +33,6 @@
   z-index: 1;
   order: 2;
   margin: 0 0 0 -10px;
-  width: 815px;
 }
 
 .hero__item {

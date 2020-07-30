@@ -1,14 +1,27 @@
 .page {
   position: relative;
-  margin: 0;
-  min-width: 1408px;
+  margin: 0 auto;
+  min-width: $min-desktop;
+  max-width: 1408px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #f2f2f2;
-  background-color: #141530;
+  color: $basick-light;
+  background-color: $dark-blue;
   background-image: url("../img/pattern-lines-hero.svg");
   background-position: center;
+
+  @media (max-width: $min-desktop) {
+    min-width: $min-tablet;
+    max-width: $min-desktop;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  @media (max-width: $min-tablet) {
+    min-width: $min-mobile;
+    max-width: $min-tablet;
+  }
 }
 
 .page__header {
@@ -20,16 +33,29 @@
   position: relative;
   padding-top: 200px;
   height: 798px;
+
+  @media (max-width: $min-desktop) {
+    padding-top: 150px;
+  }
 }
 
 .page__intro {
   padding-bottom: 120px;
   min-height: 828px;
+
+  @media (max-width: $min-desktop) {
+    margin-top: -150px;
+    padding-bottom: 10px;
+  }
 }
 
 .page__portfolio {
   margin: 0;
   padding-bottom: 160px;
+
+  @media (max-width: $min-desktop) {
+    padding-bottom: 50px;
+  }
 }
 
 .page__footer {

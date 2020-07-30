@@ -1,7 +1,12 @@
+$min-desktop: 1150px;
+$min-tablet: 780px;
+$min-mobile: 320px;
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 .visually-hidden {
