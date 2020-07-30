@@ -1,0 +1,16 @@
+.level {
+  text-align: right;
+  background-color: $basic-dark;
+  box-shadow: inset 0 0 12px $shadow;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.level__item {
+  margin: 0;
+  height: 24px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  background-color: $basik-violet;
+  background-image: url("../img/progress-pattern.svg");
+}

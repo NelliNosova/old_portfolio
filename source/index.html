@@ -38,8 +38,8 @@
     <section class="page__intro intro">
       <div class="container container--intro">
         <h2 class="visually-hidden">Witam</h2>
-        <figure class="intro__user-image user-image">
-          <img class="user-image__item" src="img/foto-nelli-2.jpg" width="640" alt="Foto Nelli Nosova" />
+        <figure class="intro__user-image">
+          <img class="intro__item" src="img/foto-nelli-2.jpg" width="640" alt="Foto Nelli Nosova" />
         </figure>
         <div class="intro__about about">
           <h3 class="about__title">Kilka zdań o sobie</h3>
@@ -86,31 +86,40 @@
           </ul>
           <h3 class="skills__title">Moje umiejętności</h3>
           <dl class="skills__list skills-list">
-            <dt class="skills-list__dt skill-html">HTML</dt>
+            <dt class="skills-list__dt skills-list__dt--html">HTML</dt>
             <dd class="skills-list__level level">
               <div class="level__item" style="width: 80%;">80%</div>
             </dd>
-            <dt class="skills-list__dt skill-css">CSS</dt>
+            <dt class="skills-list__dt skills-list__dt--css">CSS</dt>
             <dd class="skills-list__level level">
               <div class="level__item" style="width: 60%;">60%</div>
             </dd>
-            <dt class="skills-list__dt skill-js">JS</dt>
+            <dt class="skills-list__dt skills-list__dt--js">JS</dt>
             <dd class="skills-list__level level">
               <div class="level__item" style="width: 10%;">10%</div>
             </dd>
           </dl>
-          <p class="skills__other other">
-            SCSS; LESS; JavaScript; GIT; GitHub; NPM; Photoshop; Figma; Accessibility.
-          </p>
-          <h3 class="skills__title bottom">CV</h3>
-          <p class="skills__other other">
+          <ul class="skills__other other">
+            <li class="other__item">SCSS;</li>
+            <li class="other__item">LESS;</li>
+            <li class="other__item">JavaScript;</li>
+            <li class="other__item">GIT;</li>
+            <li class="other__item">GitHub;</li>
+            <li class="other__item">NPM;</li>
+            <li class="other__item">Photoshop;</li>
+            <li class="other__item">Figma;</li>
+            <li class="other__item">Accessibility.</li>
+          </ul>
+          <div class="skills__wrapper">
+            <h3 class="skills__title skills__title--other bottom">CV:</h3>
             <a class="other__link link scill-link" href="source/CV_Nelli_Nosova.pdf">Nelli Nosova CV</a>
-          </p>
-          <h3 class="skills__title bottom">Wykształcenie</h3>
-          <p class="skills__other other">
-            <b class="other__step">Wyższe:</b>
-            kierunek - <i class="other__direction">ekonomika.</i>
-          </p>
+          </div>
+          <div class="skills__wrapper">
+            <h3 class="skills__title skills__title--other bottom">Wykształcenie</h3>
+            <!-- <p class="skills__other other"> -->
+              <b class="other__step">Wyższe: </b> kierunek &#x00009;<i class="other__direction"> - ekonomika.</i>
+            <!-- </p> -->
+          </div>
         </div>
 
       </div>

@@ -1,0 +1,31 @@
+.skills-list {
+  position: relative;
+}
+
+.skills-list__dt {
+  margin: 0 0 8px;
+  padding-left: 46px;
+  height: 36px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skills-list__dt--html {
+  background-image: url("../img/icon-html.svg");
+}
+
+.skills-list__dt--css {
+  background-image: url("../img/icon-css.svg");
+}
+
+.skills-list__dt--js {
+  background-image: url("../img/icon-js.svg");
+}
+
+.skills-list__level {
+  margin: 0 0 40px;
+  height: 24px;
+}
+

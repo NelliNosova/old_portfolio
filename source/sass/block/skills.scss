@@ -1,0 +1,35 @@
+.skills {
+  position: relative;
+}
+
+.skills__title {
+  margin-bottom: 40px;
+}
+
+.skills__title--other {
+  margin: 0;
+  margin-right: 30px;
+}
+
+.skills__certificate {
+  display: flex;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills__other {
+  margin-bottom: 40px;
+}
+
+.skills__list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills__wrapper {
+  display: flex;
+  justify-content: baseline;
+  margin-bottom: 20px;
+}

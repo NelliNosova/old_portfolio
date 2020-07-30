@@ -13,12 +13,3 @@
   display: flex;
   flex-direction: column;
 }
-
-.container--intro {
-  display: grid;
-  position: relative;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "a a"
-    "ui s";
-}

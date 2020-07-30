@@ -1,0 +1,13 @@
+.other {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.other__item {
+  flex-basis: 150px;
+}
+
+.other__step {
+  margin-right: 5px;
+}

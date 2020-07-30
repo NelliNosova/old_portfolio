@@ -1,0 +1,30 @@
+.intro {
+  background-color: $dark-blue;
+  background-image: url("../img/pattern-lines.svg");
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+
+.container--intro {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "a a"
+    "ui s";
+}
+
+.intro__user-image {
+  grid-area: ui;
+  margin: 0;
+}
+
+.intro__item {
+  width: 640px;
+  object-fit: cover;
+}
+
+.intro__about {
+  grid-area: a;
+  padding: 30px 250px 50px 50px;
+}
